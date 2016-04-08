@@ -1,0 +1,62 @@
+//******************Global Variables*********************
+
+$auto: 0 auto;
+$uppercase: uppercase;
+
+
+// FONTS SIZE ----------------------
+$font-size-primary: 15px;
+$font-size-secondary: 14px;
+$font-size-title: 20px;
+$font-size-heading: 24px;
+$font-size-tagline: 80px;
+
+
+// FONTS FAMILY ----------------------
+$font-family-primary: Avenir;
+$font-family-secondary: Playfair Display;
+$font-family-book: Avenir Book; 
+
+
+// COLORS ----------------------
+$color-primary: #000000;
+$color-white:#ffffff;
+$color-secondary: #4c4b4b;
+$color-nav: #404040;
+$color-footer: #555555;
+$color-icons: #666666;
+
+$white: #ffffff;
+$color-red-light: #fa004e;
+$color-green: #1790a2;
+$color-red: #cc252c;
+$color-purple: #717fac;
+
+
+// LAYOUT ----------------------
+$base-size: 16px; // base size for font and element sizes
+
+
+// RESPONSIVE ----------------------
+// use EM for now because iOS 6.1 doesn't support REMs
+$tablet-width: (768px/16px)*1em;
+$desktop-width: (992px/16px)*1em;
+$desktop-large-width: (1200px/16px)*1em;
+
+
+// use sparingly
+$phone-down: 'screen and (max-width: ' + ($tablet-width - (1px/16px)*1em) + ')';
+$tablet-down: 'screen and (max-width: ' + ($desktop-width - (1px/16px)*1em) + ')';
+$desktop-down: 'screen and (max-width: ' + ($desktop-large-width - (1px/16px)*1em) + ')';
+
+// your main media queries
+$tablet-up: 'screen and (min-width: ' + $tablet-width + ')';
+$desktop-up: 'screen and (min-width: ' + $desktop-width + ')';
+$desktop-large-up: 'screen and (min-width: ' + $desktop-large-width + ')';
+
+// usage:
+// @media #{$tablet-up} {
+//	tablet-up styles go here
+// }
+
+

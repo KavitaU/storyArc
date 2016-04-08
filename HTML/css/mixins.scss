@@ -1,0 +1,20 @@
+//******************** Mixins ***************************
+
+@mixin transition($timing) {
+  transition: all $timing;
+  -webkit-transition: all $timing;
+}
+
+@mixin rotate($deg) {
+  transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+

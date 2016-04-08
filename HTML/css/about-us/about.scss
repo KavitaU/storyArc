@@ -1,0 +1,78 @@
+// Who-We-Are Styles
+
+
+.main-content{
+padding:147px 0 40px;
+background:#f3f6f8;
+
+.title{
+	text-align:center;
+	text-transform: capitalize;
+    font-size: 30px;
+    line-height: 35px;
+}
+.heading{
+	font-size: 20px;
+    line-height: 30px;
+}
+
+.one-third{ 
+text-align:center;
+padding:40px 50px;
+
+.circleImg { 
+width:118px;
+height:118px;
+ @include border-radius(50%);
+ position:relative;
+     display: inline-block;
+     margin-bottom:20px;
+
+ &::before{
+ content:'"';
+ @include border-radius(50%);
+ width:43px;
+ height:43px;
+ background:#1ca9de;
+ line-height:60px;
+ font-size:35px;
+ font-family:Georgia;
+ color:#fff;
+ font-weight:bold;
+     position: absolute;
+    right: -22px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+ }
+  }
+
+
+
+.title{
+text-transform: capitalize;
+margin-bottom:5px;
+font-size:20px;
+line-height:24px;
+}
+
+p{
+font-size:$font-size-secondary;
+}
+
+cite{
+font-size:$font-size-primary;
+line-height:27px;
+color:$color-secondary;
+font-style: italic;
+text-transform: capitalize;
+font-weight:500;
+font-family:$font-family-primary;
+margin-bottom:15px;
+display:block;
+}
+
+}
+}
+
+
